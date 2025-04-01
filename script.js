@@ -44,6 +44,7 @@ app.post("/list",(req, res) => {
 app.put("/list/:id",(req, res) => {
     let data = list.find(data => data.id == req.params.id)
     if(data) {
+        data.title = req.body.title
         data.description = req.body.description
         data.status = req.body.status
         res.json(list)
