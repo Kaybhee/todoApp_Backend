@@ -1,0 +1,18 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "* Install necessary dependencies such as nodemon, express, and to set type to module in ```package.json file```\r * Installation of Postman\r * Create an Object with different list of items in an array\r * A ```GET REQUEST``` to access home and initialized objects in an array",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
